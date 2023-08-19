@@ -1,0 +1,9 @@
+#section2 {
+    height: fit-content;
+}
+
+#section2 .text-content-children-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

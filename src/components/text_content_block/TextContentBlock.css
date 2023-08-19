@@ -1,0 +1,38 @@
+.text-content-block {
+    height: 100%;
+    min-width: 300px;
+    flex-grow: 1;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.text-content-heading-container{
+    animation-delay: .5s;
+}
+.text-content-heading-container h1 {
+    color: var(--baseColor);
+    margin: 20px 0;
+}
+
+@media (min-width: 700px) {
+    .text-content-block {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+.text-content-paragraph-container {
+    margin: 5% 0;
+    animation-delay: .8s;
+}
+
+.text-content-children-container {
+    display: flex;
+    width: 100%;
+    animation-delay: 1s;
+}
